@@ -16,6 +16,10 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Montserrat+Alternates"
     />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css" />
     <link
       rel="stylesheet"
@@ -25,6 +29,7 @@
       rel="stylesheet"
       href="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
 
@@ -54,13 +59,13 @@
           >
             <ul class="nav navbar-nav mx-auto">
               <li class="nav-item" role="presentation">
-                <a class="nav-link active" href="#">About Me</a>
+                <a class="nav-link active" href="#aboutme">About Me</a>
               </li>
               <li class="nav-item" role="presentation">
-                <a class="nav-link active" href="#">Projects</a>
+                <a class="nav-link active" href="#projects">Projects</a>
               </li>
               <li class="nav-item" role="presentation">
-                <a class="nav-link active" href="#">Contact Me</a>
+                <a class="nav-link active" href="#contactme">Contact Me</a>
               </li>
             </ul>
             <ul class="nav navbar-nav">
@@ -84,18 +89,152 @@
         </h2>
       </div>
       <div id="scrolldown">
-        <div class="indicator">
-          <!-- <button class="btn btn-link btn-block arrow-button animated pulse infinite" type="button"><i class="icon ion-ios-arrow-down animated pulse infinite" style="font-size: 22px;font-weight: bold;color: rgb(255,255,255);"></i></button> -->
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
+        <a href="#aboutme">
+          <div class="indicator">
+            <!-- <button class="btn btn-link btn-block arrow-button animated pulse infinite" type="button"><i class="icon ion-ios-arrow-down animated pulse infinite" style="font-size: 22px;font-weight: bold;color: rgb(255,255,255);"></i></button> -->
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </a>
+      </div>
+    </section>
+    <section id="aboutme">
+      <div class="about">
+        <h1 data-aos="fade-right" class="text-center" id="title">
+          Hi, it's nice to meet you
+        </h1>
+        <p data-aos="fade-left" class="text-center text-sm-center">
+          I'm a Full Stack Web Developer currently studying Instrumentation and
+          Control Engineering at Netaji Subhash University of Technology, Delhi.
+          I love making creative UI/UX designs, animations and innovative
+          back-end apps and APIs.
+        </p>
+      </div>
+      <div class="about-table">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+              <img src="assets/icons/designer.png" alt="" />
+            </div>
+            <div class="col">
+              <img src="assets/icons/front-end.png" alt="" />
+            </div>
+            <div class="col">
+              <img src="assets/icons/back-end.png" alt="" />
+            </div>
+          </div>
+
+          <div class="row heading">
+            <div class="col">Designer</div>
+            <div class="col">Front-end Developer</div>
+            <div class="col">Back-end Developer</div>
+          </div>
+
+          <div class="row content">
+            <div class="col">
+              I value simple content structure, clean design patterns, and
+              thoughtful interactions.
+            </div>
+            <div class="col">
+              I like to code things from scratch, and enjoy bringing ideas to
+              life in the browser.
+            </div>
+            <div class="col">
+              I create back-end APIs, work with database and manage server-side
+              code.
+            </div>
+          </div>
+
+          <div class="row subheading">
+            <div class="col">
+              Things I enjoy designing:
+            </div>
+            <div class="col">
+              Languages I speak:
+            </div>
+            <div class="col">
+              Languages I speak:
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">UX, UI, Web, Mobile</div>
+            <div class="col">HTML, CSS, SASS, JavaScript, React.js</div>
+            <div class="col">JavaScript, Node.js, Python, Shell</div>
+          </div>
+
+          <div class="row subheading">
+            <div class="col">
+              Design Tools:
+            </div>
+            <div class="col">
+              Dev Tools:
+            </div>
+            <div class="col">
+              Dev Tools:
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">Pen & Paper</div>
+            <div class="col">Visual Studio Code</div>
+            <div class="col">Visual Studio Code</div>
+          </div>
+
+          <div class="row">
+            <div class="col">Figma</div>
+            <div class="col">Chrome Developer Tools</div>
+            <div class="col">Chrome Developer Tools</div>
+          </div>
+
+          <div class="row">
+            <div class="col">Adobe XD</div>
+            <div class="col">Bootstrap Studio</div>
+            <div class="col">Postman</div>
+          </div>
+
+          <div class="row">
+            <div class="col">Photoshop</div>
+            <div class="col">Codepen</div>
+            <div class="col">Terminal</div>
+          </div>
+
+          <div class="row">
+            <div class="col">Illustrator</div>
+            <div class="col">Terminal</div>
+            <div class="col">MongoDB</div>
+          </div>
+
+          <div class="row">
+            <div class="col"></div>
+            <div class="col subheading">Frameworks:</div>
+            <div class="col">Amazon Web Services</div>
+          </div>
+
+          <div class="row">
+            <div class="col"></div>
+            <div class="col">React.js</div>
+            <div class="col">MySQL</div>
+          </div>
+
+          <div class="row">
+            <div class="col"></div>
+            <div class="col">Vue.js</div>
+            <div class="col"></div>
+          </div>
         </div>
       </div>
     </section>
+    <section id="projects"></section>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.js"></script>
   </body>
 </html>
