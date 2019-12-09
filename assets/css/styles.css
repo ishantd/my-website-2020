@@ -12,7 +12,6 @@ body {
   background-image: url("../../assets/img/abstract1.jpg");
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
   opacity: 1;
   filter: brightness(101%);
 }
