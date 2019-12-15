@@ -302,19 +302,19 @@
         <div class="table-responsive table-borderless">
           <table class="table table-hover">
             <thead class="text-center">
-              <tr>
+              <tr data-aos="fade-left">
                 <th>Designer</th>
                 <th>Front-End Developer</th>
                 <th>Back-End Developer</th>
               </tr>
             </thead>
             <tbody class="text-center">
-              <tr>
+              <tr data-aos="fade-left">
                 <th><img src="assets/icons/designer.png" alt="" /></th>
                 <th><img src="assets/icons/front-end.png" alt="" /></th>
                 <th><img src="assets/icons/back-end.png" alt="" /></th>
               </tr>
-              <tr>
+              <tr data-aos="fade-left">
                 <td>
                   I value simple content structure, clean design patterns, and
                   thoughtful interactions.
@@ -328,22 +328,22 @@
                   server-side code.
                 </td>
               </tr>
-              <tr class="heading">
+              <tr class="heading" data-aos="fade-left">
                 <td>Things I enjoy designing:</td>
                 <td>Languages I speak:</td>
                 <td>Languages I speak:</td>
               </tr>
-              <tr>
+              <tr data-aos="fade-left">
                 <td>UX, UI, Web, Mobile</td>
                 <td>HTML, CSS, SASS, JavaScript, React.js</td>
                 <td>JavaScript, Node.js, Python, Shell</td>
               </tr>
-              <tr class="heading">
+              <tr class="heading" data-aos="fade-left">
                 <td>Design Tools:</td>
                 <td>Dev Tools:<br /></td>
                 <td>Dev Tools:<br /></td>
               </tr>
-              <tr>
+              <tr data-aos="fade-left">
                 <td>
                   <ul class="list-unstyled">
                     <li>Pen &amp; Paper</li>
@@ -374,12 +374,12 @@
                   </ul>
                 </td>
               </tr>
-              <tr class="heading">
+              <tr class="heading" data-aos="fade-left">
                 <td></td>
                 <td>Frameworks:</td>
                 <td></td>
               </tr>
-              <tr>
+              <tr data-aos="fade-left">
                 <td></td>
                 <td>
                   <ul class="list-unstyled">
@@ -487,11 +487,6 @@
     <script src="/assets/vendor/select2/select2.min.js"></script>
     <!--===============================================================================================-->
     <script src="/assets/vendor/tilt/tilt.jquery.min.js"></script>
-    <script>
-      $(".js-tilt").tilt({
-        scale: 1.1
-      });
-    </script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
@@ -519,6 +514,11 @@
       AOS.init();
     </script>
     <script src="/assets/js/data.js"></script>
+    <script>
+      $(".js-tilt").tilt({
+        scale: 1.1
+      });
+    </script>
     <script>
       function alertAndRefresh() {
         if (alert("Your Feedback has been submitted. Thank you!")) {

@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-color: rgb(0, 0, 0);
+  background-color: white;
   color: rgb(255, 255, 255);
   overflow-x: hidden;
 }
@@ -172,7 +172,7 @@ body {
 }
 
 .table .heading {
-  color: #9ad1d1;
+  color: black;
   font-size: 1.2em;
 }
 
@@ -186,6 +186,17 @@ body {
 #aboutme {
   width: 100%;
   height: 140vh;
+  background: #373b44; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4286f4,
+    #373b44
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #4286f4,
+    #373b44
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 #header {
   width: 100%;
@@ -200,8 +211,21 @@ body {
   width: 80%;
   margin: 0 auto;
   margin-top: -20vh;
-  background: #000000;
-  border-radius: 20px;
+  /* background: #000000; */
+  background: #373b44; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4286f4,
+    #373b44
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #4286f4,
+    #373b44
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  /* border-radius: 20px; */
+  overflow-x: hidden;
 }
 #about-table img {
   filter: invert(1);
@@ -229,4 +253,23 @@ body {
   );
   background-repeat: no-repeat;
   /* background-size: cover; */
+}
+
+@media (max-width: 768px) {
+  #about-table {
+    width: 100%;
+    margin-top: 0;
+    height: 90vh;
+  }
+  #aboutme {
+    height: 160vh;
+  }
+  #header {
+    width: 100%;
+    height: 70vh;
+  }
+}
+
+.table-responsive {
+  overflow-x: hidden !important;
 }
